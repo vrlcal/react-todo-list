@@ -34,8 +34,7 @@ class App extends Component {
       item: "",
       id: uuid(),
       editItem: false
-    }, 
-    () => console.log(this.state)
+    }
     )
   };
   clearList = () => {
